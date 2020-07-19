@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    table {
+      width: 100%;
+      padding: 10px;
+    }
+
+    table tr,
+    table td,
+    table th {
+      border: 1px solid #dddddd;
+      padding: 10px;
+    }
+
+    th {
+      font-weight: bold;
+      text-align: left;
+      background: #fafafa;
+    }
+
+    input {
+      display: block;
+      padding: 10px;
+      margin-top: 15px;
+      min-width: 400px;
+
+    }
+
+    button {
+      color: white;
+      text-decoration: none;
+      border: none;
+      background: green;
+
+      padding: 20px;
+      height: 48px;
+
+      margin-top: 20px;
+
+
+    }
+
+
+    * {
+      box-sizing: border-box;
+    }
+  </style>
+
+
+</head>
+
+<body>
+  <h1>Data</h1>
+  <div>
+    <input type="text" id="nameInput">
+    <input type="text" id="ageInput">
+    <button class="btn" onclick="add()">Add Record</button>
+  </div>
+  <table id="mytable"></table>
+
+
+  <script src="index.js"></script>
+</body>
+
+</html>
